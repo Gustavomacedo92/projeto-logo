@@ -62,3 +62,49 @@ section {
     top: 50px;
 
 }
+
+@media screen and (max-width:1150px) {
+
+    section {
+        width: 105%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+       position: static;
+    }
+
+    button {
+        margin: 50px auto;
+        display: block;
+    }
+
+    h1 {
+        text-align: center;
+        width: auto;
+        font-size: 80px;
+    line-height: normal;
+    }
+
+    h2 {
+        text-align: center;
+        width: auto;
+        font-size: 43px;
+    line-height: normal;
+    }
+
+    p {
+        text-align: center;
+        width: auto;
+        font-size: 21px;
+    line-height: normal;
+    }
+
+    img {
+        position: static;
+        width: 95%;
+    }
+
+
+
+
+}
